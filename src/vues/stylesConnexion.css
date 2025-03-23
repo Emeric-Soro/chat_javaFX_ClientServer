@@ -1,0 +1,22 @@
+.title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+TextField, PasswordField {
+    -fx-pref-width: 200px;
+    -fx-padding: 5px;
+}
+VBox{
+    -fx-padding: 15px 20px;
+}
+Button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-padding: 5px 10px;
+    -fx-border-radius: 5px;
+}
+
+Button:hover {
+    -fx-background-color: #2980b9;
+}
