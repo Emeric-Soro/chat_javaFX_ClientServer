@@ -9,7 +9,7 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.control.Button?>
-<BorderPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+<BorderPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Acceuil_Ctr">
     <center>
         <TabPane fx:id="tabPane" tabClosingPolicy="UNAVAILABLE">
             <tabs>
@@ -41,7 +41,7 @@
                     <children>
                         <Label fx:id="userLabel" text="Utilisateur: Non connecté" />
                         <Button fx:id="logoutButton" onAction="#handleLogout" text="Déconnexion" />
-                        <Button fx:id="loginButton" text="Se connecter" />
+                        <Button fx:id="loginButton" onAction="#handleLogin" text="Se connecter" />
                     </children>
                 </HBox>
             </right>
