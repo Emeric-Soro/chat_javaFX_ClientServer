@@ -1,0 +1,103 @@
+/* Style général pour le BorderPane */
+.border-pane {
+    -fx-background-color: #f9f9f9;
+}
+
+/* Style pour le HBox en haut à droite */
+.hbox {
+    -fx-alignment: CENTER_RIGHT;
+    -fx-spacing: 10;
+    -fx-padding: 5 15;
+}
+
+/* Style pour les labels */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+/* Style pour le label de l'utilisateur */
+#userLabel {
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+/* Boutons génériques */
+.button {
+    -fx-background-color: #187194; /* Gris neutre */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 6px 12px;
+    -fx-border-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #90A4AE; /* Gris un peu plus foncé */
+}
+
+/* Boutons d'action positive */
+.action-button {
+    -fx-background-color: #4CAF50; /* Vert */
+    -fx-text-fill: white;
+}
+
+.action-button:hover {
+    -fx-background-color: #388E3C; /* Vert plus foncé */
+}
+
+/* Boutons critiques */
+.danger-button {
+    -fx-background-color: #D32F2F; /* Rouge */
+    -fx-text-fill: white;
+}
+
+.danger-button:hover {
+    -fx-background-color: #B71C1C; /* Rouge plus foncé */
+}
+
+/* Bouton de connexion */
+#loginButton {
+    -fx-background-color: #0078D7;
+}
+#loginButton:hover {
+    -fx-background-color: #005bb5;
+}
+
+/* Bouton de déconnexion */
+#logoutButton {
+    -fx-background-color: #E74C3C;
+    -fx-border-color: #C0392B;
+    -fx-border-width: 2px;
+    -fx-font-weight: bold;
+}
+#logoutButton:hover {
+    -fx-background-color: #C0392B;
+}
+
+/* Style pour le TabPane */
+.tab-pane {
+    -fx-tab-min-width: 120px;
+    -fx-tab-max-width: 220px;
+    -fx-background-color: #f4f4f4;
+    -fx-border-radius: 5;
+    -fx-padding: 5;
+}
+
+/* Style pour les onglets */
+.tab {
+    -fx-background-color: #e0e0e0;
+    -fx-font-size: 14px;
+    -fx-padding: 8 15;
+}
+
+/* Style pour l'onglet actif */
+.tab:selected {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* Style pour le contenu des onglets */
+.tab-content-area {
+    -fx-padding: 10;
+}

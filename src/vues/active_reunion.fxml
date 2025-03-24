@@ -11,7 +11,8 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Active_reunion_Ctr">
+
+<BorderPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" stylesheets="@stylesActiveReunion.css" fx:controller="Controller.Active_reunion_Ctr">
     <top>
         <VBox spacing="5.0" BorderPane.alignment="CENTER">
             <padding>

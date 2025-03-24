@@ -15,7 +15,9 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<ScrollPane fitToWidth="true" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Create_reunion_Ctr">
+
+<ScrollPane fitToWidth="true" xmlns="http://javafx.com/javafx/17" stylesheets="@stylesCreateReunion.css" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Create_reunion_Ctr">
+
     <content>
         <GridPane hgap="10.0" vgap="10.0">
             <padding>
