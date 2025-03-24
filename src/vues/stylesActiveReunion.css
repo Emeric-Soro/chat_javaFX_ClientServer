@@ -1,0 +1,98 @@
+/* Style général pour les labels */
+.label {
+    -fx-font-size: 14px;
+    -fx-font-family: "System Bold";
+    -fx-text-fill: #333333;
+}
+
+/* Style pour le label du nom de la réunion */
+#reunionNameLabel {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+}
+
+/* Style pour le label du nombre de participants */
+#participantsCountLabel {
+    -fx-font-size: 14px;
+    -fx-text-fill: #555555;
+}
+
+/* Style pour la zone de texte des messages */
+#messagesArea {
+    -fx-font-size: 14px;
+    -fx-font-family: "System";
+    -fx-text-fill: #000000;
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+}
+
+/* Style pour les boutons */
+.button {
+    -fx-font-size: 14px;
+    -fx-font-family: "System Bold";
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px 10px;
+}
+
+/* Bouton Envoyer (Vert) */
+#envoyerButton {
+    -fx-background-color: #28a745;
+}
+
+#envoyerButton:hover {
+    -fx-background-color: #218838;
+}
+
+/* Bouton Demander la parole (Orange) */
+#demanderParoleButton {
+    -fx-background-color: #ff9800;
+}
+
+#demanderParoleButton:hover {
+    -fx-background-color: #e68900;
+}
+
+/* Bouton Donner la parole (Violet) */
+#donnerParoleButton {
+    -fx-background-color: #8e44ad;
+}
+
+#donnerParoleButton:hover {
+    -fx-background-color: #732d91;
+}
+
+/* Bouton Quitter (Rouge) */
+#quitterButton {
+    -fx-background-color: #ff0000;
+}
+
+#quitterButton:hover {
+    -fx-background-color: #cc0000;
+}
+
+/* Style pour les champs de texte */
+.text-field {
+    -fx-font-size: 14px;
+    -fx-font-family: "System";
+    -fx-text-fill: #000000;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+
+/* Style pour les listes */
+.list-view {
+    -fx-font-size: 14px;
+    -fx-font-family: "System";
+    -fx-text-fill: #000000;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}

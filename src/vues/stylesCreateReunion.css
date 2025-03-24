@@ -1,0 +1,61 @@
+/* Applique un fond clair et un léger padding à l'ensemble */
+.root {
+    -fx-background-color: #f4f4f4;
+    -fx-padding: 20px;
+}
+
+/* Style général des labels */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+    -fx-font-weight: bold;
+}
+
+/* Style des champs de texte et des autres inputs */
+.text-field, .text-area, .combo-box, .date-picker, .spinner {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+}
+
+.text-area {
+    -fx-pref-height: 80px;
+}
+
+/* Style des boutons */
+.button {
+    -fx-background-color: #0078D7;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 15px;
+    -fx-border-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #005A9E;
+}
+
+/* Style du bouton Effacer */
+#clearButton {
+    -fx-background-color: #A9A9A9;
+    -fx-text-fill: white;
+}
+
+#clearButton:hover {
+    -fx-background-color: #808080;
+}
+
+/* Espacement des éléments pour un meilleur rendu */
+GridPane {
+    -fx-hgap: 15px;
+    -fx-vgap: 10px;
+}
+
+/* Style du titre */
+.label:first-of-type {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #222;
+}
